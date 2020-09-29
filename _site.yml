@@ -1,0 +1,28 @@
+name: "GEMA"
+output_dir: "."
+navbar:
+  title: "GEMA"
+  pagetitle: "GEMA Tutorial de R!"
+  left:
+    - text: "Apresentação"
+      href: index.html
+    - text: "Tutorial de R!"
+      href: tutorial.html 
+  right:
+    - icon: fa-university
+      href: https://www.ie.ufrj.br/gema
+    - icon: fa-book
+      href: https://sites.google.com/view/gema-ufrj/p%C3%A1gina-inicial?authuser=0
+    - icon: fa-newspaper-o
+      href: https://www.oeco.org.br/colunas/gema/
+    - icon: fa-medium
+      href: https://medium.com/gema-ie-ufrj?fbclid=IwAR1KlmEd6uLDviXFImTwHi9zIdnkjVklqaqRiNqyo_5OGfGq7h_25II1wcc
+    - icon: fa-facebook
+      href: https://www.facebook.com/gema.ieufrj 
+output:
+  html_document:
+    theme: readable
+    css: style.css
+    includes:
+      before_body: header.html
+      after_body: footer.html

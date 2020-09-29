@@ -1,0 +1,16 @@
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+body {
+  background-image: url("figuras/rio_jamanxim.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.25em;
+}
+
