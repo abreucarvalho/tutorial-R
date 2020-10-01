@@ -326,12 +326,104 @@ $(document).ready(function () {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#instalando-o-e-o-rstudio">Instalando o <i class="fab fa-r-project"></i> e o RStudio</a><ul>
+<li><a href="#windows">Windows <i class="fab fa-windows"></i></a></li>
+<li><a href="#mac-e-linux">Mac <i class="fab fa-apple"></i> e Linux <i class="fab fa-linux"></i></a></li>
+<li><a href="#download-do-rstudio">Download do RStudio</a></li>
+</ul></li>
+<li><a href="#funcionalidades-do-rstudio">Funcionalidades do RStudio</a></li>
+<li><a href="#sintaxe-e-comandos">Sintaxe e comandos</a></li>
+<li><a href="#criando-um-projeto">Criando um projeto</a></li>
+</ul>
+</div>
 
-<p><font size=6></p>
 <center>
-<strong><em>Tutorial de R!</em></strong>
+<font size=8> <strong><em>Tutorial de</em></strong> <i class="fab fa-r-project"></i> !</font>
 </center>
-<p></font></p>
+<p><font size=4></p>
+<p><br></p>
+<hr />
+<p><br></p>
+<center>
+<em>Este tutorial de <i class="fab fa-r-project"></i> é dedicado aos membros do <img src="figuras/logo_gema.png" width="100" /></em>
+</center>
+<p><br></p>
+<center>
+Além das etapas iniciais de familiarização com o software são apresentadas aplicações específicas pertinentes ao tema da economia do meio ambiente e desenvolvimento sustentável.
+</center>
+<p><br></p>
+<hr />
+<div id="instalando-o-e-o-rstudio" class="section level1">
+<h1>Instalando o <i class="fab fa-r-project"></i> e o RStudio</h1>
+<p>Para baixar o software visite o link: <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p>
+<p><br></p>
+<div class="figure">
+<img src="figuras/downloadR.png" alt="" />
+<p class="caption">CRAN - Comprehensive R Archive Network</p>
+</div>
+<p><br></p>
+<p>Selecione entre as opções de acordo com o seu sistema operacional (OS, na sigla em inglês).</p>
+<hr />
+<div id="windows" class="section level2">
+<h2>Windows <i class="fab fa-windows"></i></h2>
+<p>A opção <span style="color: magenta">Download R for Windows</span> abre a seguinte janela:</p>
+<p><br></p>
+<p><img src="figuras/downloadRWin.png" /></p>
+<p><br></p>
+<p>Os hyperlinks <span style="color: magenta">base</span> ou <span style="color: magenta">install R for the first time</span> redirecionam para o repositório:</p>
+<p><br></p>
+<div class="figure">
+<img src="figuras/downloadRWin402.png" alt="" />
+<p class="caption">R-4.0.2 for Windows</p>
+</div>
+<p>Clique em <span style="color: blue">Download R 4.0.2 for Windows</span>, ou na versão mais recente que estiver disponível.</p>
+<p>Ao salvar e executar o arquivo o download será iniciado bastando seguir as instruções de instalação.</p>
+<p><img src="figuras/downloadRWin402exe.png" /></p>
+<p><br></p>
+<hr />
+<p>Para os usuários de Windows, recomenda-se também a instalação do <strong>Rtools</strong> que permite a criação de pacotes. O download pode ser feito pelo link <a href="https://cran.r-project.org/bin/windows/Rtools/" class="uri">https://cran.r-project.org/bin/windows/Rtools/</a>. Basta clicar em um dos links apresentados, de acordo com o Windows (32 ou 64-bit) instalado em seu computador.</p>
+<hr />
+<p>Caso seja necessário, para descobrir se o seu sistema operacional roda em 32-bits ou 64-bits, abra o Prompt de Comando do Windows:</p>
+<p><br></p>
+<p><img src="figuras/prompt.png" /></p>
+<p><br></p>
+<p>Copie e cole a seguinte linha de comando <code>wmic os get osarchitecture</code>.</p>
+<p><br></p>
+<hr />
+</div>
+<div id="mac-e-linux" class="section level2">
+<h2>Mac <i class="fab fa-apple"></i> e Linux <i class="fab fa-linux"></i></h2>
+<p>Para instalar o R em computadores com o sistema operacional Mac você deverá clicar em Download R for (Mac) OS X. Na página seguinte, clique em R-4.0.2.pkg ou em outra versão mais atual.</p>
+<p>Se você utiliza Linux o R pode ser instalado no Ubuntu diretamente pelo terminal usando o seguinte script Bash:</p>
+<p><code>sudo apt-get install r-base</code></p>
+<hr />
+</div>
+<div id="download-do-rstudio" class="section level2">
+<h2>Download do RStudio</h2>
+<p><img src="figuras/logo_rstudio.png" /></p>
+<p>O RStudio é um ambiente de desenvolvimento integrado ou integrated development environment (IDE). Um IDE reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo.</p>
+<p>Para fazer o download do RStudio, acesse: <a href="https://rstudio.com/products/rstudio/download/" class="uri">https://rstudio.com/products/rstudio/download/</a></p>
+<p><br></p>
+<p><img src="figuras/donwloadRStudio.png" /></p>
+<p><br></p>
+<p>Clique na opção gratuita e o site irá redirecionar para o repositório e indicar a melhor versão para o seu OS.</p>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="funcionalidades-do-rstudio" class="section level1">
+<h1>Funcionalidades do RStudio</h1>
+</div>
+<div id="sintaxe-e-comandos" class="section level1">
+<h1>Sintaxe e comandos</h1>
+</div>
+<div id="criando-um-projeto" class="section level1">
+<h1>Criando um projeto</h1>
+<p><br></p>
+<hr />
+</div>
 
 <!DOCTYPE html>
 
@@ -339,7 +431,7 @@ $(document).ready(function () {
 
 <hr />
 <p style="text-align: center;"> Site created by</p>
-<p style="text-align: center;"><a href="https://github.com/kain-ahy/">Rodrigo Abreu Carvalho</a></p>
+<p style="text-align: center;"><a href="https://github.com/abreucarvalho/">Rodrigo Abreu Carvalho</a></p>
 <p style="text-align: center;"><span style="color: #808080;"><em>carvalho.ra@outlook.com</em></span></p>
 
 <!-- Add icon library -->
@@ -347,8 +439,8 @@ $(document).ready(function () {
 
 <!-- Add font awesome icons -->
 <p style="text-align: center;">
-    <a href="https://twitter.com/kain_ahy" class="fa fa-twitter"></a>
-    <a href="https://github.com/kain-ahy/" class="fa fa-github"></a>
+    <a href="https://twitter.com/rodrigoabreuc" class="fa fa-twitter"></a>
+    <a href="https://github.com/abreucarvalho" class="fa fa-github"></a>
 </p>
 
 &nbsp;

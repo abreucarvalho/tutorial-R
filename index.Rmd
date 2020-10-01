@@ -1,12 +1,11 @@
----
-title: ""
----
 
 <center> ![](figuras/gema_header.png){width=1100px}</center>
 
-<font size=6>
+<font size=5>
 
 <br>
+
+O Grupo de Economia do Meio Ambiente e Desenvolvimento Sustentável (GEMA) dedica-se ao ensino e à pesquisa relacionados à sustentabilidade, através da análise econômica e institucional de políticas públicas e outros assuntos relacionados ao meio ambiente e sua interação com temas econômicos.
 
 </font>
 

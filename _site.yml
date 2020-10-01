@@ -23,6 +23,7 @@ output:
   html_document:
     theme: readable
     css: style.css
+    toc: yes
     includes:
       before_body: header.html
       after_body: footer.html

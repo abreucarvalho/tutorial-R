@@ -7,6 +7,8 @@ body {
   background-image: url("figuras/rio_jamanxim.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div {
@@ -14,3 +16,11 @@ div {
   padding: 0.25em;
 }
 
+#TOC {
+  position: fixed;
+  left: 10px;
+  top: 90px;
+  width: 260px;
+  height: 30%;
+  overflow:auto;
+}

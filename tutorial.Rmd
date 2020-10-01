@@ -1,9 +1,121 @@
----
-title: ""
----
 
-<font size=6>
+<center> <font size=8> ***Tutorial de*** <i class="fab fa-r-project"></i> !</font> </center>
 
-<center> ***Tutorial de R!*** </center>
+<font size=4>
 
-</font>
+<br>
+
+***
+
+<br>
+
+<center>*Este tutorial de <i class="fab fa-r-project"></i> é dedicado aos membros do ![](figuras/logo_gema.png){width=100px}*</center>
+
+<br>
+
+<center>Além das etapas iniciais de familiarização com o software são apresentadas aplicações específicas pertinentes ao tema da economia do meio ambiente e desenvolvimento sustentável. </center> 
+
+<br>
+
+***
+
+# Instalando o <i class="fab fa-r-project"></i> e o RStudio
+
+Para baixar o software visite o link: https://cran.r-project.org/  
+
+<br>
+
+![CRAN - Comprehensive R Archive Network](figuras/downloadR.png)
+
+<br>
+
+Selecione entre as opções de acordo com o seu sistema operacional (OS, na sigla em inglês).
+
+***
+
+## Windows <i class="fab fa-windows"></i>
+
+A opção <span style="color: magenta">Download R for Windows</span> abre a seguinte janela:
+
+<br>
+
+![](figuras/downloadRWin.png)
+
+
+<br>
+
+Os hyperlinks <span style="color: magenta">base</span> ou <span style="color: magenta">install R for the first time</span> redirecionam para o repositório:  
+
+<br>
+
+![R-4.0.2 for Windows](figuras/downloadRWin402.png)
+
+
+Clique em <span style="color: blue">Download R 4.0.2 for Windows</span>, ou na versão mais recente que estiver disponível.
+
+Ao salvar e executar o arquivo o download será iniciado bastando seguir as instruções de instalação.
+
+![](figuras/downloadRWin402exe.png)
+
+<br>
+
+***
+
+Para os usuários de Windows, recomenda-se também a instalação do **Rtools** que permite a criação de pacotes. O download pode ser feito pelo link https://cran.r-project.org/bin/windows/Rtools/. Basta clicar em um dos links apresentados, de acordo com o Windows (32 ou 64-bit) instalado em seu computador.
+
+***
+
+Caso seja necessário, para descobrir se o seu sistema operacional roda em 32-bits ou 64-bits, abra o Prompt de Comando do Windows:
+
+<br>
+
+![](figuras/prompt.png)
+
+<br>
+
+Copie e cole a seguinte linha de comando `wmic os get osarchitecture`.  
+
+<br>
+
+***
+
+## Mac <i class="fab fa-apple"></i> e Linux <i class="fab fa-linux"></i>
+
+Para instalar o R em computadores com o sistema operacional Mac você deverá clicar em Download R for (Mac) OS X. Na página seguinte, clique em R-4.0.2.pkg ou em outra versão mais atual.
+
+Se você utiliza Linux o R pode ser instalado no Ubuntu diretamente pelo terminal usando o seguinte script Bash:
+
+`sudo apt-get install r-base`
+
+***
+
+## Download do RStudio
+
+![](figuras/logo_rstudio.png)
+
+O RStudio é um ambiente de desenvolvimento integrado ou integrated development environment (IDE). Um IDE reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo.  
+
+Para fazer o download do RStudio, acesse: https://rstudio.com/products/rstudio/download/  
+
+<br>
+
+![](figuras/donwloadRStudio.png)
+
+<br>
+
+Clique na opção gratuita e o site irá redirecionar para o repositório e indicar a melhor versão para o seu OS.
+
+<br>
+
+***
+
+# Funcionalidades do RStudio
+
+# Sintaxe e comandos
+
+# Criando um projeto
+
+
+<br>
+
+***
