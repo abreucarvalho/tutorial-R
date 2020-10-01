@@ -1,4 +1,6 @@
 
+<br>
+
 <center> <font size=8> ***Tutorial de*** <i class="fab fa-r-project"></i> !</font> </center>
 
 <font size=4>
@@ -19,7 +21,7 @@
 
 ***
 
-# Instalando o <i class="fab fa-r-project"></i> e o RStudio
+# Instalando o <i class="fab fa-r-project"></i> e o RStudio 
 
 Para baixar o software visite o link: https://cran.r-project.org/  
 
@@ -58,6 +60,8 @@ Ao salvar e executar o arquivo o download será iniciado bastando seguir as inst
 ![](figuras/downloadRWin402exe.png)
 
 <br>
+
+Por fim, é importante verificar onde os arquivos baixados estão salvos, este será o seu **diretório** principal!
 
 ***
 
@@ -110,6 +114,107 @@ Clique na opção gratuita e o site irá redirecionar para o repositório e indi
 ***
 
 # Funcionalidades do RStudio
+
+Ao abrir o RStudio, inicia-se uma sessão do programa  
+
+<br>
+
+![](figuras/defaultRStudio.png)
+
+<br> 
+
+Note que a versão e a plataforma que o programa está rodando são informadas no **console**:
+
+>R version 4.0.1 (2020-06-06) -- "See Things Now"  
+Copyright (C) 2020 The R Foundation for Statistical Computing  
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+***
+
+Para ampliar/reduzir os painéis, basta clicar com o cursor sobre as divisórias e arrastá-las. Também há botões <i class="far fa-window-maximize"></i> de minimização e ampliação de cada painel .  
+
+Outras opções de layout dos painéis podem ser definidas em > Tools > Global Options > Panel Layout
+
+<br>
+
+<div class="img-hover-zoom">
+  <img src="figuras/consoleOptions.png" alt="Panel Layout">
+</div>  
+
+***
+
+<br>
+
+<br>
+
+<br>  
+  
+O Panel Layout permite incluir/remover abas com demais funcionalidades, além de trocar a disposição de cada painel.  
+
+***
+
+## Console
+
+A janela do **Console** roda os comandos e exibe seus resultados, erros e avisos. 
+
+Para limpar o console digite Ctrl+L ou clique no icone <i class="fas fa-broom"></i> no canto direito do painel.
+
+<br>
+
+![](figuras/consoleZoom.png)
+
+<br>
+
+***
+
+## Source
+
+Ao iniciar a edição de um documento, abre-se o painel **Source**. Este é o editor de códigos (scripts) para todos os formatos de arquivos disponíveis no R. Para iniciar um novo documento clique no botão <i class="fas fa-plus-circle"></i> que irá abrir o seguinte menu de opções
+
+<br>
+
+![](figuras/newDocument.png)
+
+<br>
+
+Dentre os tipos de arquivos disponíveis estão R Script, C++, R Markdown, Python Script, R HTML... Este tutorial está escrito em arquivos de R Markdown, com complementos de CSS e HTML, todos editados no RStudio. Para publicar o site utilizou-se o GitHub <i class="fab fa-github"></i>. Todos os códigos e imagens utilizados neste tutorial estão diponíveis para acesso no [repositório do GitHub](https://github.com/abreucarvalho/tutorial-R). 
+
+***
+
+Os códigos próprios para R são criados em documentos de texto com extensão .R, os R Scripts.    
+
+Para abrir um novo R Script basta pressionar Ctrl+Shift+N  
+
+<br>
+
+![](figuras/editorRscript.png)
+
+<br>
+
+Para salvar, pressione Ctrl+S, ou clique no icone de disquete <i class="fas fa-save"></i>, ou ainda via File > Save.  
+
+<div class="alert alert-danger" role="alert"><center><i class="fas fa-exclamation-triangle"></i><strong> Lembre-se sempre de salvar o seu trabalho!</strong></center></div>
+
+Alguns outros recursos de recuperação de histórico de modificação e controle de versão serão discutidos mais adiante.   
+
+<br>
+
+***
+
+## Environment
+
+O painel denominado **Environment** armazena todos os objetos e funções criados em uma determinada sessão.
+
+<br>
+
+***
+
+## Files
+
+<br>
+
+***
+
 
 # Sintaxe e comandos
 

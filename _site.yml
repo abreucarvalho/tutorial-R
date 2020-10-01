@@ -24,6 +24,6 @@ output:
     theme: readable
     css: style.css
     toc: yes
+    toc_float: yes
     includes:
-      before_body: header.html
       after_body: footer.html
