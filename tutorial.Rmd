@@ -50,12 +50,12 @@ Os hyperlinks <span style="color: magenta">base</span> ou <span style="color: ma
 
 <br>
 
-![R-4.0.2 for Windows](figuras/downloadRWin402.png)
+![](figuras/downloadRWin402.png)
 
 
 Clique em <span style="color: blue">Download R 4.0.2 for Windows</span>, ou na versão mais recente que estiver disponível.
 
-Ao salvar e executar o arquivo o download será iniciado bastando seguir as instruções de instalação.
+Ao salvar e executar o arquivo o download será iniciado. Basta seguir as instruções de instalação.
 
 ![](figuras/downloadRWin402exe.png)
 
@@ -77,7 +77,7 @@ Caso seja necessário, para descobrir se o seu sistema operacional roda em 32-bi
 
 <br>
 
-Copie e cole a seguinte linha de comando `wmic os get osarchitecture`.  
+Copie e cole a seguinte linha de comando `wmic os get osarchitecture` e pressione Enter.  
 
 <br>
 
@@ -155,11 +155,9 @@ O Panel Layout permite incluir/remover abas com demais funcionalidades, além de
 
 ## Console
 
-A janela do **Console** roda os comandos e exibe seus resultados, erros e avisos. 
+O painel do **Console** roda os comandos e exibe seus resultados, erros e avisos. Este é o painel que informa as ações que estão sendo realizadas e o histórico de ações na sequência em que foram executados. Não há como salvar os comandos executados apenas no console, para isso usaremos o Source Editor (ver seção seguinte) criando um documento com a extensão adequada.  
 
 Para limpar o console digite Ctrl+L ou clique no icone <i class="fas fa-broom"></i> no canto direito do painel.
-
-<br>
 
 ![](figuras/consoleZoom.png)
 
@@ -171,13 +169,21 @@ Para limpar o console digite Ctrl+L ou clique no icone <i class="fas fa-broom"><
 
 Ao iniciar a edição de um documento, abre-se o painel **Source**. Este é o editor de códigos (scripts) para todos os formatos de arquivos disponíveis no R. Para iniciar um novo documento clique no botão <i class="fas fa-plus-circle"></i> que irá abrir o seguinte menu de opções
 
+<div class="img-hover-zoom">
+  <img src="figuras/newDocument.png" alt="Panel Layout">
+</div>  
+
+***
+
 <br>
 
-![](figuras/newDocument.png)
-
 <br>
 
-Dentre os tipos de arquivos disponíveis estão R Script, C++, R Markdown, Python Script, R HTML... Este tutorial está escrito em arquivos de R Markdown, com complementos de CSS e HTML, todos editados no RStudio. Para publicar o site utilizou-se o GitHub <i class="fab fa-github"></i>. Todos os códigos e imagens utilizados neste tutorial estão diponíveis para acesso no [repositório do GitHub](https://github.com/abreucarvalho/tutorial-R). 
+<br>  
+
+<center>![](figuras/extensoes.png)</center>
+
+Dentre os tipos de arquivos disponíveis estão R Script, C++, R Markdown, Python Script, R HTML... Este tutorial está escrito em arquivos de R Markdown, com complementos de CSS e HTML, todos editados no RStudio. Para publicar o site utilizou-se o GitHub <i class="fab fa-github"></i>. Todos os códigos e imagens utilizados neste tutorial estão diponíveis para acesso no [repositório do GitHub](https://github.com/abreucarvalho/tutorial-R).
 
 ***
 
@@ -185,25 +191,57 @@ Os códigos próprios para R são criados em documentos de texto com extensão .
 
 Para abrir um novo R Script basta pressionar Ctrl+Shift+N  
 
-<br>
-
 ![](figuras/editorRscript.png)
 
 <br>
 
 Para salvar, pressione Ctrl+S, ou clique no icone de disquete <i class="fas fa-save"></i>, ou ainda via File > Save.  
 
+<br>
+
 <div class="alert alert-danger" role="alert"><center><i class="fas fa-exclamation-triangle"></i><strong> Lembre-se sempre de salvar o seu trabalho!</strong></center></div>
 
-Alguns outros recursos de recuperação de histórico de modificação e controle de versão serão discutidos mais adiante.   
+<br>
+
+Alguns outros recursos de recuperação do histórico de modificação e controle de versão serão discutidos mais adiante. 
+
+Note ainda, na imagem abaixo, que ao editar o documento seu nome na aba muda de cor e surge um asterisco * ao final, indicando que as alterações não foram salvas. Ao salvar, Ctrl+S, a cor muda novamente e o asterisco some. 
+
+***
+
+Também será possível visualizar as tabelas de dados neste painel, o que abrirá uma nova aba.
+
+Outros botões estão disponíveis no cabeçalho do Source Editor. Em ordem, da esquerda para a direita, as setas permitem navegar entre abas de diferentes documentos/tabelas, alternativamente pressione Crtl+Tab e Ctrl+Shift+Tab; o segundo botão permite abrir cada aba numa nova janela destacada do RStudio (clique para testar), ao clicar novamente o mesmo botão a janela volta a ser uma aba; e a lupa <i class="fas fa-search"></i> permite buscar caracteres no código de forma dinâmica.  
 
 <br>
+
+<div class="img-hover-zoom">
+  <img src="figuras/cabecalhoSource.png" alt="Panel Layout">
+</div>  
+
+No lado direito o botão *"Run"* corresponde ao comando Ctrl+Enter e roda as linhas selecionadas. Este será o comando mais utilizado! 
+
+Assim como para os botões acima, recomenda-se criar o hábito de uso dos atalhos via teclado ao invés do point-click do mouse, sempre que possível. 
 
 ***
 
 ## Environment
 
-O painel denominado **Environment** armazena todos os objetos e funções criados em uma determinada sessão.
+O painel denominado **Environment** armazena todos os objetos e funções criados em uma determinada sessão. A aba Environment exibe estes objetos e alguns de seus detalhes. O icone <i class="fas fa-broom"></i> remove todos os objetos, equivalente ao comando 
+
+`rm(list = ls())`
+
+A aba History registra os comandos executados anteriormente, para ter uma versão completa deste histórico, ao final da sessão, salve o arquivo .RHistory. 
+
+<br>
+
+![](figuras/environment.mp4){width=800px}
+
+<br>
+
+Uma última aba de interesse para essa etapa de familiarização é a aba Tutorial. Vale a pena explorar os tutoriais disponíveis sobre diversos assuntos específicos. Um outro recurso parecido é o [Swirl](https://swirlstats.com/).
+
+
 
 <br>
 

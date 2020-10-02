@@ -437,12 +437,9 @@ Além das etapas iniciais de familiarização com o software são apresentadas a
 <p><br></p>
 <p>Os hyperlinks <span style="color: magenta">base</span> ou <span style="color: magenta">install R for the first time</span> redirecionam para o repositório:</p>
 <p><br></p>
-<div class="figure">
-<img src="figuras/downloadRWin402.png" alt="" />
-<p class="caption">R-4.0.2 for Windows</p>
-</div>
+<p><img src="figuras/downloadRWin402.png" /></p>
 <p>Clique em <span style="color: blue">Download R 4.0.2 for Windows</span>, ou na versão mais recente que estiver disponível.</p>
-<p>Ao salvar e executar o arquivo o download será iniciado bastando seguir as instruções de instalação.</p>
+<p>Ao salvar e executar o arquivo o download será iniciado. Basta seguir as instruções de instalação.</p>
 <p><img src="figuras/downloadRWin402exe.png" /></p>
 <p><br></p>
 <p>Por fim, é importante verificar onde os arquivos baixados estão salvos, este será o seu <strong>diretório</strong> principal!</p>
@@ -453,7 +450,7 @@ Além das etapas iniciais de familiarização com o software são apresentadas a
 <p><br></p>
 <p><img src="figuras/prompt.png" /></p>
 <p><br></p>
-<p>Copie e cole a seguinte linha de comando <code>wmic os get osarchitecture</code>.</p>
+<p>Copie e cole a seguinte linha de comando <code>wmic os get osarchitecture</code> e pressione Enter.</p>
 <p><br></p>
 <hr />
 </div>
@@ -504,9 +501,8 @@ Platform: x86_64-w64-mingw32/x64 (64-bit)</p>
 <hr />
 <div id="console" class="section level2">
 <h2>Console</h2>
-<p>A janela do <strong>Console</strong> roda os comandos e exibe seus resultados, erros e avisos.</p>
+<p>O painel do <strong>Console</strong> roda os comandos e exibe seus resultados, erros e avisos. Este é o painel que informa as ações que estão sendo realizadas e o histórico de ações na sequência em que foram executados. Não há como salvar os comandos executados apenas no console, para isso usaremos o Source Editor (ver seção seguinte) criando um documento com a extensão adequada.</p>
 <p>Para limpar o console digite Ctrl+L ou clique no icone <i class="fas fa-broom"></i> no canto direito do painel.</p>
-<p><br></p>
 <p><img src="figuras/consoleZoom.png" /></p>
 <p><br></p>
 <hr />
@@ -514,29 +510,52 @@ Platform: x86_64-w64-mingw32/x64 (64-bit)</p>
 <div id="source" class="section level2">
 <h2>Source</h2>
 <p>Ao iniciar a edição de um documento, abre-se o painel <strong>Source</strong>. Este é o editor de códigos (scripts) para todos os formatos de arquivos disponíveis no R. Para iniciar um novo documento clique no botão <i class="fas fa-plus-circle"></i> que irá abrir o seguinte menu de opções</p>
+<div class="img-hover-zoom">
+<p><img src="figuras/newDocument.png" alt="Panel Layout"></p>
+</div>
+<hr />
 <p><br></p>
-<p><img src="figuras/newDocument.png" /></p>
 <p><br></p>
+<p><br></p>
+<center>
+<img src="figuras/extensoes.png" />
+</center>
 <p>Dentre os tipos de arquivos disponíveis estão R Script, C++, R Markdown, Python Script, R HTML… Este tutorial está escrito em arquivos de R Markdown, com complementos de CSS e HTML, todos editados no RStudio. Para publicar o site utilizou-se o GitHub <i class="fab fa-github"></i>. Todos os códigos e imagens utilizados neste tutorial estão diponíveis para acesso no <a href="https://github.com/abreucarvalho/tutorial-R">repositório do GitHub</a>.</p>
 <hr />
 <p>Os códigos próprios para R são criados em documentos de texto com extensão .R, os R Scripts.</p>
 <p>Para abrir um novo R Script basta pressionar Ctrl+Shift+N</p>
-<p><br></p>
 <p><img src="figuras/editorRscript.png" /></p>
 <p><br></p>
 <p>Para salvar, pressione Ctrl+S, ou clique no icone de disquete <i class="fas fa-save"></i>, ou ainda via File &gt; Save.</p>
+<p><br></p>
 <div class="alert alert-danger" role="alert">
 <center>
 <i class="fas fa-exclamation-triangle"></i><strong> Lembre-se sempre de salvar o seu trabalho!</strong>
 </center>
 </div>
-<p>Alguns outros recursos de recuperação de histórico de modificação e controle de versão serão discutidos mais adiante.</p>
 <p><br></p>
+<p>Alguns outros recursos de recuperação do histórico de modificação e controle de versão serão discutidos mais adiante.</p>
+<p>Note ainda, na imagem abaixo, que ao editar o documento seu nome na aba muda de cor e surge um asterisco * ao final, indicando que as alterações não foram salvas. Ao salvar, Ctrl+S, a cor muda novamente e o asterisco some.</p>
+<hr />
+<p>Também será possível visualizar as tabelas de dados neste painel, o que abrirá uma nova aba.</p>
+<p>Outros botões estão disponíveis no cabeçalho do Source Editor. Em ordem, da esquerda para a direita, as setas permitem navegar entre abas de diferentes documentos/tabelas, alternativamente pressione Crtl+Tab e Ctrl+Shift+Tab; o segundo botão permite abrir cada aba numa nova janela destacada do RStudio (clique para testar), ao clicar novamente o mesmo botão a janela volta a ser uma aba; e a lupa <i class="fas fa-search"></i> permite buscar caracteres no código de forma dinâmica.</p>
+<p><br></p>
+<div class="img-hover-zoom">
+<p><img src="figuras/cabecalhoSource.png" alt="Panel Layout"></p>
+</div>
+<p>No lado direito o botão <em>“Run”</em> corresponde ao comando Ctrl+Enter e roda as linhas selecionadas. Este será o comando mais utilizado!</p>
+<p>Assim como para os botões acima, recomenda-se criar o hábito de uso dos atalhos via teclado ao invés do point-click do mouse, sempre que possível.</p>
 <hr />
 </div>
 <div id="environment" class="section level2">
 <h2>Environment</h2>
-<p>O painel denominado <strong>Environment</strong> armazena todos os objetos e funções criados em uma determinada sessão.</p>
+<p>O painel denominado <strong>Environment</strong> armazena todos os objetos e funções criados em uma determinada sessão. A aba Environment exibe estes objetos e alguns de seus detalhes. O icone <i class="fas fa-broom"></i> remove todos os objetos, equivalente ao comando</p>
+<p><code>rm(list = ls())</code></p>
+<p>A aba History registra os comandos executados anteriormente, para ter uma versão completa deste histórico, ao final da sessão, salve o arquivo .RHistory.</p>
+<p><br></p>
+<p><video src="figuras/environment.mp4" width="800" controls=""><a href="figuras/environment.mp4">Video</a></video></p>
+<p><br></p>
+<p>Uma última aba de interesse para essa etapa de familiarização é a aba Tutorial. Vale a pena explorar os tutoriais disponíveis sobre diversos assuntos específicos. Um outro recurso parecido é o <a href="https://swirlstats.com/">Swirl</a>.</p>
 <p><br></p>
 <hr />
 </div>
