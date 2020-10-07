@@ -53,23 +53,25 @@ Os hyperlinks <span style="color: magenta">base</span> ou <span style="color: ma
 ![](figuras/downloadRWin402.png)
 
 
-Clique em <span style="color: blue">Download R 4.0.2 for Windows</span>, ou na versão mais recente que estiver disponível.
+Clique em <span style="color: blue">Download R 4.0.2 for Windows</span>, ou na versão mais recente que estiver disponível. Ao salvar e executar o arquivo o download será iniciado. Basta seguir as instruções de instalação.
 
-Ao salvar e executar o arquivo o download será iniciado. Basta seguir as instruções de instalação.
+<br>
 
 ![](figuras/downloadRWin402exe.png)
 
 <br>
 
-Por fim, é importante verificar onde os arquivos baixados estão salvos, este será o seu **diretório** principal!
+Por fim, é importante verificar onde os arquivos baixados estão salvos, este será o seu **diretório** principal! <i class="fas fa-home"></i>
 
 ***
 
-Para os usuários de Windows, recomenda-se também a instalação do **Rtools** que permite a criação de pacotes. O download pode ser feito pelo link https://cran.r-project.org/bin/windows/Rtools/. Basta clicar em um dos links apresentados, de acordo com o Windows (32 ou 64-bit) instalado em seu computador.
+Para os usuários de Windows, recomenda-se também a instalação do **Rtools** que permite a criação de pacotes.  
+
+O download pode ser feito pelo link https://cran.r-project.org/bin/windows/Rtools/. Escolha a melhor opção de acordo com o Windows (32 ou 64-bit) instalado em seu computador.
 
 ***
 
-Caso seja necessário, para descobrir se o seu sistema operacional roda em 32-bits ou 64-bits, abra o Prompt de Comando do Windows:
+Caso seja necessário, para descobrir se o seu OS roda em 32-bits ou 64-bits, abra o Prompt de Comando do Windows:
 
 <br>
 
@@ -97,7 +99,7 @@ Se você utiliza Linux o R pode ser instalado no Ubuntu diretamente pelo termina
 
 ![](figuras/logo_rstudio.png)
 
-O RStudio é um ambiente de desenvolvimento integrado ou integrated development environment (IDE). Um IDE reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo.  
+O RStudio é um ambiente de desenvolvimento integrado ou *integrated development environment* (IDE). Um IDE reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo.  
 
 Para fazer o download do RStudio, acesse: https://rstudio.com/products/rstudio/download/  
 
@@ -107,7 +109,7 @@ Para fazer o download do RStudio, acesse: https://rstudio.com/products/rstudio/d
 
 <br>
 
-Clique na opção gratuita e o site irá redirecionar para o repositório e indicar a melhor versão para o seu OS.
+Clique na opção gratuita e o site irá redirecionar para o repositório e indicará a melhor versão para o seu OS.
 
 <br>
 
@@ -131,7 +133,7 @@ Platform: x86_64-w64-mingw32/x64 (64-bit)
 
 ***
 
-Para ampliar/reduzir os painéis, basta clicar com o cursor sobre as divisórias e arrastá-las. Também há botões <i class="far fa-window-maximize"></i> de minimização e ampliação de cada painel .  
+Na imagem acima podemos ver três painéis. Para ampliar/reduzir os painéis, basta clicar com o cursor sobre as divisórias e arrastá-las. Também há botões <i class="far fa-window-maximize"></i> de minimização e ampliação em cada painel.  
 
 Outras opções de layout dos painéis podem ser definidas em > Tools > Global Options > Panel Layout
 
@@ -149,13 +151,13 @@ Outras opções de layout dos painéis podem ser definidas em > Tools > Global O
 
 <br>  
   
-O Panel Layout permite incluir/remover abas com demais funcionalidades, além de trocar a disposição de cada painel.  
+O Panel Layout permite incluir/remover abas com demais funcionalidades, além de trocar a posição de cada painel.  
 
 ***
 
 ## Console
 
-O painel do **Console** roda os comandos e exibe seus resultados, erros e avisos. Este é o painel que informa as ações que estão sendo realizadas e o histórico de ações na sequência em que foram executados. Não há como salvar os comandos executados apenas no console, para isso usaremos o Source Editor (ver seção seguinte) criando um documento com a extensão adequada.  
+O painel do **Console** roda os comandos e exibe seus resultados, erros e avisos. Este é o painel que informa as ações que estão sendo realizadas e o histórico de ações - na sequência em que foram executados. Não há como salvar os comandos executados apenas no console, para isso usaremos o Source Editor (ver seção seguinte) criando um documento com a extensão adequada.  
 
 Para limpar o console digite Ctrl+L ou clique no icone <i class="fas fa-broom"></i> no canto direito do painel.
 
@@ -193,10 +195,11 @@ Para abrir um novo R Script basta pressionar Ctrl+Shift+N
 
 ![](figuras/editorRscript.png)
 
+***
+
 <br>
 
 Para salvar, pressione Ctrl+S, ou clique no icone de disquete <i class="fas fa-save"></i>, ou ainda via File > Save.  
-
 <br>
 
 <div class="alert alert-danger" role="alert"><center><i class="fas fa-exclamation-triangle"></i><strong> Lembre-se sempre de salvar o seu trabalho!</strong></center></div>
@@ -205,7 +208,7 @@ Para salvar, pressione Ctrl+S, ou clique no icone de disquete <i class="fas fa-s
 
 Alguns outros recursos de recuperação do histórico de modificação e controle de versão serão discutidos mais adiante. 
 
-Note ainda, na imagem abaixo, que ao editar o documento seu nome na aba muda de cor e surge um asterisco * ao final, indicando que as alterações não foram salvas. Ao salvar, Ctrl+S, a cor muda novamente e o asterisco some. 
+Note ainda, na imagem abaixo, que ao editar o documento seu nome na aba muda de cor e surge um asterisco ao final, indicando que as alterações não foram salvas. Ao salvar a cor muda novamente e o asterisco some. 
 
 ***
 
@@ -219,7 +222,7 @@ Outros botões estão disponíveis no cabeçalho do Source Editor. Em ordem, da 
   <img src="figuras/cabecalhoSource.png" alt="Panel Layout">
 </div>  
 
-No lado direito o botão *"Run"* corresponde ao comando Ctrl+Enter e roda as linhas selecionadas. Este será o comando mais utilizado! 
+No canto direito do painel encontra-se o botão *"Run"* corresponde ao comando Ctrl+Enter e roda as *linhas selecionadas*. Este será o comando mais utilizado! 
 
 Assim como para os botões acima, recomenda-se criar o hábito de uso dos atalhos via teclado ao invés do point-click do mouse, sempre que possível. 
 
@@ -227,11 +230,9 @@ Assim como para os botões acima, recomenda-se criar o hábito de uso dos atalho
 
 ## Environment
 
-O painel denominado **Environment** armazena todos os objetos e funções criados em uma determinada sessão. A aba Environment exibe estes objetos e alguns de seus detalhes. O icone <i class="fas fa-broom"></i> remove todos os objetos, equivalente ao comando 
+O painel denominado **Environment** armazena todos os objetos e funções criados em uma determinada sessão. A aba Environment exibe estes objetos e alguns de seus detalhes. O icone <i class="fas fa-broom"></i> remove todos os objetos, equivalente a linha de comando `rm(list = ls())`
 
-`rm(list = ls())`
-
-A aba History registra os comandos executados anteriormente, para ter uma versão completa deste histórico, ao final da sessão, salve o arquivo .RHistory. 
+A aba History registra os comandos executados anteriormente, para ter uma versão completa deste histórico, ao final da sessão, salve o arquivo .RData. 
 
 <br>
 
@@ -239,9 +240,9 @@ A aba History registra os comandos executados anteriormente, para ter uma versã
 
 <br>
 
-Uma última aba de interesse para essa etapa de familiarização é a aba Tutorial. Vale a pena explorar os tutoriais disponíveis sobre diversos assuntos específicos. Um outro recurso parecido é o [Swirl](https://swirlstats.com/).
+***
 
-
+Uma última aba de interesse para essa etapa de familiarização é a aba Tutorial (R version > 4.0.1). Vale a pena explorar os tutoriais disponíveis sobre diversos assuntos específicos. Um outro recurso parecido é o [Swirl](https://swirlstats.com/).
 
 <br>
 
@@ -249,15 +250,13 @@ Uma última aba de interesse para essa etapa de familiarização é a aba Tutori
 
 ## Files
 
+Por fim, o painel que denominaremos de **Files** exibe seu diretório principal <i class="fas fa-home"></i>. A aba Plots é onde visualizaremos os gráficos, mapas e quaisquer tipos de imagens e animações. A aba Packages contém a lista de pacotes que são extensões para o R. Permite pesquisar, instalar e atualizar quaisquer pacotes disponíveis no [CRAN](https://cran.r-project.org/) ou outros repositórios online. A aba Help é onde encontraremos a [documentação](https://www.rdocumentation.org/) dos pacotes e de suas respectivas funções, com descrições, parâmetros e demais detalhes de como utilizá-las. 
+
 <br>
 
-***
+![](figuras/filespanel.mp4){width=800px}
 
-
-# Sintaxe e comandos
-
-# Criando um projeto
-
+<br>
 
 <br>
 
