@@ -260,7 +260,7 @@ Por fim, o painel que denominaremos de **Files** exibe seu diretório principal 
 
 ***
 
-$\Re$
+<center>$\Re$</center>
 
 ***
 
